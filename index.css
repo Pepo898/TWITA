@@ -1,0 +1,46 @@
+body{
+ overflow: hidden;
+}
+
+
+
+.circle{
+    background-color: rgb(0, 127, 253);
+    height: 700px;
+    width: 700px;
+    border-radius: 350px;
+    position: relative;
+    left: 70%;
+    top: -50px;
+}
+@media (max-width:780px){
+    .circle{
+       
+        background-color: rgb(0, 127, 253);
+        height: 700px;
+        width: 700px;
+        border-radius: 350px;
+        position: relative;
+        left: -10%;
+        top: 300px;
+    }
+     
+}
+@media (max-width:780px){
+    .body{
+        overflow: hidden;
+    }
+    
+}
+h2{
+    color: rgb(0, 127, 253);
+    z-index: 100;
+    position: relative;
+    top: -700px;
+    font-size: 50px;
+}
+.input{
+position: relative;
+top: -700px;
+border-radius: 20px;
+}
